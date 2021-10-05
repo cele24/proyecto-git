@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin: 0px auto;}
+header{
+    background: rgb(173, 13, 13);
+    height: 100px;
+    width: 100%; 
+    margin:0px;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+}
+nav{
+    margin: 0px auto;
+    width: 100%;
+    font-family: arial;
+}
+nav ul{
+    list-style: none; 
+}
+nav > ul{ 
+     /*solo se aplica para los que estan despues de la etiqueta nav*/
+display: table;  /*para que los elementos tengan un tamaño similar y se muestren en cajas*/
+width: 100%;
+line-height: 50px;
+background: rgb(224, 61, 61);
+position:relative; 
+}
+nav > ul li{
+    display: table-cell ; /*para que los elementos li tenga una posición de celda*/
+}
+nav > ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    line-height: 20px;
+    padding: 20px 80px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+nav> ul li a:hover{
+    background: rgba(223, 93, 93, 0.856);
+}
+.img1{
+    width:90px;
+    float:right;
+    padding-right: 50px;
+}
+footer{
+    background: rgb(173, 13, 13);
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
